@@ -1,0 +1,3 @@
+12:54:16 INFO tests.core.CustomLogger Verifying page title 
+12:54:16 ERROR tests.core.CustomLogger Page title was not verified because empty expected title provided 
+12:54:16 INFO tests.core.CustomLogger Page title '' is verifyed. 

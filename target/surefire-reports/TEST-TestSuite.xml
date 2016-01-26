@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="146.094" errors="0" skipped="0" tests="2" name="TestSuite">
+  <properties>
+    <property name="idea.version" value="15.0.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7538"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Tatiana\IdeaProjects\Rawtale"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tatiana\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\DevKit\bin;C:\Ruby193\bin; C:\DevKit\mingw\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\TortoiseHg\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Calibre2\;C:\Ruby193\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Tatiana"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.1\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Tatiana"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.1 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="30.664" classname="tests.tests.ProfilePageTest" name="sendMessageTest"/>
+  <testcase time="56.316" classname="tests.tests.ProfilePageTest" name="updateUserInfoTest">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at tests.tests.ProfilePageTest.VerifyImagesData(ProfilePageTest.java:107)
+	at tests.tests.ProfilePageTest.updateUserInfoTest(ProfilePageTest.java:69)
+</failure>
+    <system-out>Web Driver initializes
+Web Driver sets up timeouts
+Web Driver deletes cokies
+Web Driver maximizes window
+1983-4-23
+2012-4-19
+Go to https://rawtale.com/
+Verifying page title
+Page title &apos;RawTale | The Leading Platform for Business Partnership&apos; is verified.
+Clicking on link Sign in
+Setting value into &quot;Email&quot; field 
+Value &apos;t.s.smirnova@gmail.com&apos; is set 
+Setting value into &quot;Password&quot; field 
+Value &apos;987456&apos; is set 
+Click on &quot;Sign in&quot; button 
+Chat is closed
+Go to Settings page
+Verifying page title
+Page title &apos;RawTale | The Leading Platform for Business Partnership&apos; is verified.
+Required element &apos;EditProfileLink&apos; is displayed on page &apos;model.pages.PersonalSettingsPage&apos;
+Click Edit Profile link
+Verifying page title
+Page title &apos;RawTale | The Leading Platform for Business Partnership&apos; is verified.
+Required element &apos;FirstNameInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;LastNameInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;DescriptionInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;LocationInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;IndustryInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;FacebookInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;LinkedinInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;AngelListInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;TwitterInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;GooglePlusInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;SaveButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;AddExperienceButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;ChangeCoverImgButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;CoverImgSrc&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;ProfileImgSrc&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;ChangeProfileImgButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Setting value int &quot;First Name&quot; field
+Value &apos;Fname 73bf6d4ba40&apos; is set 
+Setting value int &quot;Last Name&quot; field
+Value &apos;Lname 73bf6d4ba40&apos; is set 
+Setting value int &quot;Description&quot; field
+Value &apos;Description 73bf6d4ba40&apos; is set 
+Setting value &apos;Marshall Islands&apos; int &quot;Location&quot; field
+Setting value &apos;Education&apos; int &quot;Industry&quot; field
+Setting value int &quot;Facebook&quot; field
+Value &apos;fb.com/73bf6d4ba40&apos; is set 
+Setting value int &quot;LinkedIn&quot; field
+Value &apos;li.com/73bf6d4ba40&apos; is set 
+Setting value int &quot;LinkedIn&quot; field
+Value &apos;tw.com/73bf6d4ba40&apos; is set 
+Setting value int &quot;LinkedIn&quot; field
+Value &apos;g.com/73bf6d4ba40&apos; is set 
+Setting value int &quot;LinkedIn&quot; field
+Value &apos;al.com/73bf6d4ba40&apos; is set 
+Save button was clicked
+Getting result message text after click on Save
+Success message is displayed
+Refresh page
+Getting User Data from page
+&apos;1 experience instances is displayed
+Remove link was clicked
+Setting value int &quot;Company Name&quot; field
+Value &apos;Company 73bf6d4ba40&apos; is set 
+Setting value int &quot;Role&quot; field
+Value &apos;Role 73bf6d4ba40&apos; is set 
+Setting value int &quot;Start Date&quot; field
+Value &apos;1983&apos; is set as Year
+Value &apos;4&apos; is set as Month
+Setting value int &quot;End Date&quot; field
+Value &apos;2012&apos; is set as Year
+Value &apos;4&apos; is set as Month
+Setting value int &quot;Experience Description&quot; field
+Value &apos;ExpDescription 73bf6d4ba40&apos; is set 
+Cover image changed to &apos;C:\Users\Tatiana\IdeaProjects\Rawtale\coverimg1.png&apos;
+Refresh page
+Profile image changed to &apos;C:\Users\Tatiana\IdeaProjects\Rawtale\coverimg2.jpg&apos;
+Refresh page
+Getting User Data from page
+Log Out
+Verifying page title
+Page title &apos;RawTale | The Leading Platform for Business Partnership&apos; is verified.
+Clicking on link Sign in
+Setting value into &quot;Email&quot; field 
+Value &apos;t.s.smirnova@gmail.com&apos; is set 
+Setting value into &quot;Password&quot; field 
+Value &apos;987456&apos; is set 
+Click on &quot;Sign in&quot; button 
+Go to Settings page
+Verifying page title
+Page title &apos;RawTale | The Leading Platform for Business Partnership&apos; is verified.
+Required element &apos;EditProfileLink&apos; is displayed on page &apos;model.pages.PersonalSettingsPage&apos;
+Click Edit Profile link
+Verifying page title
+Page title &apos;RawTale | The Leading Platform for Business Partnership&apos; is verified.
+Required element &apos;FirstNameInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;LastNameInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;DescriptionInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;LocationInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;IndustryInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;FacebookInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;LinkedinInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;AngelListInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;TwitterInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;GooglePlusInput&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;SaveButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;AddExperienceButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;ChangeCoverImgButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;CoverImgSrc&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;ProfileImgSrc&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Required element &apos;ChangeProfileImgButton&apos; is displayed on page &apos;model.pages.EditProfilePage&apos;
+Refresh page
+Getting User Data from page
+Getting count of Experience Instances
+Checkin if Profile Img is visible
+Checkin if Cover Img is visible
+</system-out>
+    <system-err>Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 8528
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>
