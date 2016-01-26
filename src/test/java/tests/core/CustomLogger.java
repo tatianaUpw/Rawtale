@@ -15,12 +15,10 @@ public class CustomLogger {
     {
         this.log.error(message);
         TestResult.ErrCount += 1;
-        System.err.println(message);
     }
 
     public void info(String message)
     {
         this.log.info(message);
-        System.out.println(message);
     }
 }

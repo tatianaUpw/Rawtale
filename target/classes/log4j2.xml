@@ -6,10 +6,14 @@
                 <Pattern>%d{HH:mm:ss} %p %m %ex%n</Pattern>
             </PatternLayout>
         </File>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{%m%n}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=black, DEBUG=green bold, TRACE=blue}"/>
+        </Console>
     </Appenders>
     <Loggers>
         <Root level="ALL">
             <AppenderRef ref="RollingFileAppender"/>
+            <AppenderRef ref="STDOUT"/>
         </Root>
     </Loggers>
 </Configuration>
